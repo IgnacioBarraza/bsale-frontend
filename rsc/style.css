@@ -87,10 +87,32 @@ main{
     color: var(--color-a);
 }
 
-.producto-btn{
-    width: auto;
-    height: auto;
-    text-align: center;
+.producto-title{
+    margin: 10px;
+    padding: .5em;
+    width: 12em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 3px;
+    color: var(--color-a);
+}
+
+div > ul {
+    display: none;
+    list-style: none;
+}
+
+div:hover > ul {
+    display: block;
+}
+div:hover > ul > li {
+    padding: 5px;
+}
+div:hover > ul > li:hover {
+    background: var(--color-header);
+}
+div:hover > ul > li:hover > a {
+    color: red;
 }
 
 .producto-btn:hover{
@@ -98,21 +120,6 @@ main{
     border-radius: 5px;
 }
 
-.producto-title1{
-    width: 100px;
-}
-
-.producto-title2, .producto-title6{
-    width: 110px;
-}
-
-.producto-title3{
-    width: 220px;
-}
-
-.producto-title4, .producto-title5{
-    width: 140px;
-}
 /* Footer */
 
 footer{
