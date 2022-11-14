@@ -21,3 +21,5 @@ Para este proyecto, como se menciona al inicio, se hara el front-end y back-end 
 Se añadio la carpeta js que contiene los archivos javascript con los que se trabajo en la conexión del front-end con el back-end
 
 Ademas se añadio la carpeta template, donde estan los templates de html para poder trabajar de manera mas facil
+
+Muchas Gracias por la oportunidad de resolver este desafio, aprendi, aplique y mejore conocimientos que tenia para poder superar la prueba.
