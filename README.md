@@ -17,3 +17,7 @@ De haber tenido permitido el uso de algun framework se hubiera utilizado Angular
 El objetivo del front-end es poder darle un vista al usuario que usa la pagina al momento de comprar, y lograr hacerla accesible para todo tipos de usuario.
 
 Para este proyecto, como se menciona al inicio, se hara el front-end y back-end de manera separada, por lo cual se crean 2 repositorios en github para poder trabajar con el control de versiones que tiene github, estos repositorios se clonaron al equipo de trabajo, se uso el IDE Visual Studio Code para realizar el ejercicio.
+
+Se añadio la carpeta js que contiene los archivos javascript con los que se trabajo en la conexión del front-end con el back-end
+
+Ademas se añadio la carpeta template, donde estan los templates de html para poder trabajar de manera mas facil
