@@ -11,7 +11,7 @@ class Category {
                 // console.log(data)
                 $(data).each(function (index, category) {
                     $('.categories').append(
-                        '<a class="dropdown-item" href="/category.html?category=' + category.id + '">' + title(category.name) + '</a>'
+                        `<a class="dropdown-item" href="/category.html?category=${category.id}">${title(category.name)}</a>`
                     )
                 })
             }
@@ -25,7 +25,13 @@ class Category {
             success: function (data) {
                 $(data).each (function (index, product) {
                     $('.products').append(
-                        '<div class="col-md-3"><a href="/product.html?id='+ product.id +'"><img src="' + product.url_image + '" class="img">' + product.name + '</a></div>'
+                        `<div class="col-md-3">
+                            <a href="/product.html?id=${product.id}">
+                                <img src="${product.url_image}" alt="Bebida Enegertica">
+                            </a>
+                            <h2>${product.name}</h2>
+                            <p>$${product.price}</p>
+                        </div>`
                     )
                 })
             }
